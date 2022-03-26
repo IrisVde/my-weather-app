@@ -81,3 +81,19 @@ a#fahrenheit {
 .next-days {
   padding: 24px 0 0;
 }
+.source-text {
+  margin-top: 15px;
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+.source-code-link {
+  color: #0487a1;
+  transition: all 150ms ease-in-out;
+}
+.source-code-link:hover {
+  color: #00b3d7;
+}
+.developer-name {
+  color: #bbbdbd;
+}
