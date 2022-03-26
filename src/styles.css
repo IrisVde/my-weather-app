@@ -1,5 +1,10 @@
+html {
+  height: 100%;
+}
 body {
-  background: #ffcab0;
+  background-image: linear-gradient(to top, #1b7777 0%, #160644 100%);
+  background-repeat: no-repeat;
+  color: #fff;
 }
 h1,
 h2,
@@ -11,6 +16,9 @@ h6 {
 }
 a {
   text-decoration: none;
+}
+strong {
+  font-weight: 500;
 }
 a#celsius {
   color: #212529;
@@ -39,7 +47,7 @@ a#fahrenheit {
 }
 .today-card,
 .next-days-card {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.15);
   border: none;
 }
 .today-card {

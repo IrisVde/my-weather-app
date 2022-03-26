@@ -44,7 +44,7 @@ function showSearchedCityWeather(response) {
   // Wind speed
   console.log(Math.round(response.data.wind.speed));
   let windSpeed = Math.round(response.data.wind.speed);
-  document.querySelector("#wind-speed").innerHTML = `${windSpeed} km/h`;
+  document.querySelector("#wind-speed").innerHTML = `${windSpeed}km/h`;
   // Humidity percentage
   console.log(response.data.main.humidity);
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
