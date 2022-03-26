@@ -1,0 +1,75 @@
+body {
+  background: #ffcab0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+a#celsius {
+  color: #212529;
+}
+a#fahrenheit {
+  color: #0599b7;
+}
+.units {
+  font-size: 20px;
+}
+.page-container {
+  margin: 30px auto;
+  max-width: 600px;
+}
+.go-button,
+.my-location-button {
+  background: #00b3d7;
+  border: #00b3d7;
+  color: #fff;
+}
+.go-button:hover,
+.my-location-button:hover {
+  background: #3dd9eb;
+  border: #3dd9eb;
+  color: #fff;
+}
+.today-card,
+.next-days-card {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+}
+.today-card {
+  margin-top: 24px;
+  padding: 25px 35px;
+}
+.today-card p {
+  font-size: 25px;
+  font-weight: 300;
+}
+.today-card-body {
+  padding: 40px 60px;
+}
+.today-temperature {
+  font-size: 45px;
+  font-weight: 300;
+}
+.today-weather img {
+  width: 75px;
+}
+.today-conditions img {
+  width: 30px;
+}
+.today-conditions span {
+  margin-top: 15px;
+}
+
+.next-days img {
+  width: 55px;
+}
+.next-days {
+  padding: 24px 0 0;
+}
